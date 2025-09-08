@@ -1,0 +1,11 @@
+Mô hình được fine-tunning trên bộ trọng số đã huấn luyện trước: vit_base_patch16_224 (trên imagenet)
+với các tham số sau:
+1/ Số epoch = 30 (thực tế sử dụng early stopping, dừng ở epoch 16)
+2/ Learning rate = 0.0001
+3/ Hàm mất mát Cross Entropy
+4/ Trình tối ưu (optimizer) là Adamw với weight_decay = 1e-5
+5/ Ngoài ra sử ụng scheduler để thực hiện giảm learning rate
+(Xem link kaggle để biết thêm (ở phần 5))
+
+Link đến bộ trọng số:
+https://drive.google.com/file/d/1RDt7WtsIefD2j3WVC_-aB5Hkqfu9T0aX/view?usp=sharing

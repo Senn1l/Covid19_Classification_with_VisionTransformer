@@ -1,0 +1,13 @@
+https://www.kaggle.com/code/senn1l/classification-with-vision-transformer
+
+[Thực hiện code trên Kaggle*]
+- Bắt buộc phải có tài khoản kaggle.
+- Để thực hiện tải model pretrained thì Kaggle cần phải có Internet.
+- Và tài khoản kaggle cần phải xác nhận số điện thoại (Home -> ấn vào avatar gốc phải trên 
+-> Settings -> Phone verification)
+- Sau đó Copy & Edit notebook và chỉnh trong phần [Session options]:
+1/ Accelerator: GPU P100 
+2/ Internet: On
+
+*Kaggle là một nền tảng cho phép người dùng thực hành, chia sẻ, thi đấu và triển khai 
+các mô hình học máy – đồng thời cung cấp tài nguyên miễn phí như GPU, dataset, notebook.
